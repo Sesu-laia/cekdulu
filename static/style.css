@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #222222;
+    margin: 0;
+    padding: 20px;
+}
+
+.wadah {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+h1 {
+    font-size: 44px;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 22px;
+    padding: 15px;
+    border: 3px solid #555555;
+    border-radius: 12px;
+}
+
+button,
+.tombol {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 18px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1a56db;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.hasil {
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.bahaya {
+    background-color: #fde2e2;
+    border: 4px solid #c81e1e;
+}
+
+.bahaya h1 {
+    color: #c81e1e;
+}
+
+.hati {
+    background-color: #fff4cc;
+    border: 4px solid #b45309;
+}
+
+.hati h1 {
+    color: #b45309;
+}
+
+.aman {
+    background-color: #def7ec;
+    border: 4px solid #057a55;
+}
+
+.aman h1 {
+    color: #057a55;
+}

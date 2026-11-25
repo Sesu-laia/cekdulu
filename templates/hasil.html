@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Cek - CekDulu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="wadah">
+        <div class="hasil {{ status }}">
+            <h1>{{ judul }}</h1>
+
+            {% if semua_alasan %}
+                <ul>
+                    {% for alasan in semua_alasan %}
+                        <li>{{ alasan }}</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>Tidak ditemukan ciri penipuan atau judi online.</p>
+            {% endif %}
+        </div>
+
+        <h2>Yang sebaiknya dilakukan:</h2>
+        <p>{{ saran }}</p>
+
+        <a href="/" class="tombol">Cek Pesan Lain</a>
+    </div>
+</body>
+</html>
